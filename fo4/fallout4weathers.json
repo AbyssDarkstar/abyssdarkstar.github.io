@@ -1,0 +1,6 @@
+{
+  "fog": [150, "1c3473"],
+  "clearday": [100, "2b52a"],
+  "fh_fog": [150, "009962", "DLCCoast.esm"],
+  "radstorm": [200, "1C3D5E"]
+}

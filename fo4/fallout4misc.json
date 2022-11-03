@@ -1,0 +1,5 @@
+{
+  "slow": [100, "setstage TwitchIntegrationQuest 50"],
+  "unequip": [100, "setstage TwitchIntegrationQuest 55"],
+  "heal": [50, "player.resethealth"]
+}

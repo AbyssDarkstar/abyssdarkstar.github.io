@@ -1,0 +1,19 @@
+{
+  "ghoul": [50, "758ad", 1, true],
+  "ghoul_pack": [200, "758ad", 5, true],
+  "deathclaw": [300, "1db4c", 1, false],
+  "deathclaw_pack": [1200, "1db4c", 5, false],
+  "alpha_deathclaw": [400, "1423a7", 1, false],
+  "molerat": [5, "1d966", 1, true],
+  "molerat_pack": [45, "1d966", 5, true],
+  "mirelurk_queen": [1500, "e12ab", 1, false],
+  "glowing_one": [150, "20bcc", 1, true],
+  "bloated_glowing_one": [250, "a0eee", 1, true],
+  "quantum_deathclaw": [500, "00d325", 1, false, "DLCNukaWorld.esm"],
+  "albino_angler": [600, "009585", 1, false, "DLCCoast.esm"],
+  "swarmbot": [75, "00101d", 1, true, "DLCRobot.esm"],
+  "mongrel": [20, "1d15a", 1, true],
+  "mongrel_pack": [75, "1d15a", 4, true],
+  "mongrel_glowing": [60, "1832fd", 1, true],
+  "radscorpion": [150, "636aa", 1, false]
+}

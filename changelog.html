@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+
+    <title>Abyss' Fallout 4 Integration Stream Price List</title>
+    <script type="text/javascript">
+        const itemListURL = "https://studiodarkstar.co.uk/fo4/fallout4items.json";
+        const weatherListURL = "https://studiodarkstar.co.uk/fo4/fallout4weathers.json";
+        const spawnsListURL = "https://studiodarkstar.co.uk/fo4/fallout4spawns.json";
+        const miscListURL = "https://studiodarkstar.co.uk/fo4/fallout4misc.json";
+    </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Abyss Darkstar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="commands.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Changelog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.twitch.tv/abyssdarkstar">My Twitch Channel</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main role="main">
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="display-3">Changelog</h1>
+                <p>Changes made to the pricelists by date</p>
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="heading20210718">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse20210718" aria-expanded="true" aria-controls="collapse20210718">
+                                    2021-07-18
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapse20210718" class="collapse show" aria-labelledby="heading20210718" data-parent="#accordion">
+                            <div class="card-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item">Added a Mongrel spawn for 20</li>
+                                    <li class="list-group-item">Added a Mongrel pack spawn for 75</li>
+                                    <li class="list-group-item">Added a Glowing Mongrel spawn for 60</li>
+                                    <li class="list-group-item">Added a Radscorpion spawn for 150</li>
+                                    <li class="list-group-item">Prevented spawning of a Radscorpion inside</li>
+                                    <li class="list-group-item">Fixed the give Robot repair kit event</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="heading20210715">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse20210715" aria-expanded="false" aria-controls="collapse20210715">
+                                    2021-07-15
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapse20210715" class="collapse" aria-labelledby="heading20210715" data-parent="#accordion">
+                            <div class="card-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item">Increased the cost of spawning a random enemy from 250 to 1000</li>
+                                    <li class="list-group-item">Added heal custom event costing 50</li>
+                                    <li class="list-group-item">Added a give Robot repair kit event costing 35</li>
+                                    <li class="list-group-item">Reduced the cost of spawning a Ghoul pack from 250 to 200</li>
+                                    <li class="list-group-item">Increased the cost of spawning a Deathclaw from 250 to 300</li>
+                                    <li class="list-group-item">Increased the cost of spawning a Deathclaw pack from 205 to 1200</li>
+                                    <li class="list-group-item">Prevented spawning of a Deathclaw pack inside</li>
+                                    <li class="list-group-item">Increased the cost of spawning a Deathclaw Alpha from 250 to 400</li>
+                                    <li class="list-group-item">Increased the cost of spawning a Mirelurk Queen from 750 to 1500</li>
+                                    <li class="list-group-item">Increased the cost of spawning a Quantum Deathclaw from 100 to 500</li>
+                                    <li class="list-group-item">Increased the cost of spawning an Albino Angler from 25 to 600</li>
+                                    <li class="list-group-item">Increased the cost of spawning a Swarmbot from 25 to 75</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>              
+            </div>
+        </div>
+    </main>
+    <footer class="text-muted">
+        <div class="container">
+            <p class="float-right">
+                <a href="#">Back to top</a>
+            </p>
+            <p>This page was built using the Album example for © Bootstrap 4.0 from <a
+                    href="https://getbootstrap.com/">https://getbootstrap.com/</a>,<br />using the RimWorld Twitch
+                Toolkit
+                instructions page by Hodldeeznuts found at <a
+                    href="https://twitchtoolkit.github.io/item-list/">https://twitchtoolkit.github.io/item-list/</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
